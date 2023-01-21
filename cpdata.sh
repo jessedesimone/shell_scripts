@@ -11,6 +11,7 @@ echo "destination directory is ${dest}"
 FILES=( T1 RS1 )     #define files types to copy
 ext=nii      #define file extension
 
+#subject loop
 SUB=`cat id_sub`
 for sub in ${SUB[@]}
 do
